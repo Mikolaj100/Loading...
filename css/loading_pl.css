@@ -1,0 +1,47 @@
+#ladowanie {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+}
+
+#ladowanie:after {
+  content: "";
+  font-size: 70px;
+  animation: load_pl 2.5s infinite;
+}
+
+@keyframes load_pl {
+  0% {
+    content: "Ł";
+  }
+  12.5% {
+    content: "Ła";
+  }
+  25% {
+    content: "Ład";
+  }
+  37.5% {
+    content: "Łado";
+  }
+  50% {
+    content: "Ładow";
+  }
+  62.5% {
+    content: "Ładowa";
+  }
+  75% {
+    content: "Ładowan";
+  }
+  87.5% {
+    content: "Ładowanie";
+  }
+  93% {
+    content: "Ładowanie . ";
+  }
+  100% {
+    content: "Ładowanie . . .";
+  }
+}

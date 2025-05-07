@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="images\favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/loading_en.css" />
+    <link rel="stylesheet" href="css/loading_pl.css" />
+    <link rel="stylesheet" href="css/darkmode.css" />
+    <link rel="stylesheet" href="css/newversionwebsite.css" />
+    <link rel="stylesheet" href="css/nowawersjastrony.css" />
+    <title>Loading...</title>
+  </head>
+  <body>
+    <div id="container">
+      <label class="switch">
+        <input type="checkbox" onclick="changeMode()" />
+        <span class="slider"></span>
+      </label>
+    </div>
+    <select name="" id="change_language">
+      <option value="en">English</option>
+      <option value="pl">Polish</option>
+    </select>
+    <div id="container-en" class="english"><div id="loading"></div></div>
+    <div id="container-pl" class="polish"><div id="ladowanie"></div></div>
+    <div id="container-nv1" class="newversion">
+      <div id="newversionwebsite"><a href="">New version website</a></div>
+    </div>
+    <div id="container-nv2" class="nowawersja">
+      <div id="nowawersjastrony"><a href="">Nowa wersja strony</a></div>
+    </div>
+    <script src="js/main.js"></script>
+  </body>
+</html>
